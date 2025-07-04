@@ -24,7 +24,7 @@
         </dependency>
     </dependencies>
 
-    <build>  <<-- Correctly placed build tag
+    <build>  <-- Correctly placed build tag
         <finalName>mymaven</finalName> <!-- match the expected war name -->
         <plugins>
             <plugin>
