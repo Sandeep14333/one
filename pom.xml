@@ -24,9 +24,8 @@
         </dependency>
     </dependencies>
 
-    <build>
-        <build>
-    <finalName>mywebapp-1.0-SNAPSHOT</finalName> <!-- match the expected war name -->
+    <build>  <<-- Only one <build> tag here
+        <finalName>mywebapp-1.0-SNAPSHOT</finalName> <!-- match the expected war name -->
         <plugins>
             <plugin>
                 <artifactId>maven-war-plugin</artifactId>
